@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            color: #fff;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background-image: linear-gradient(#ff0000, #fff000);
+            /*background-image: url(./Brisbane_City_Night.jpg);*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1000px;
+            height: 450px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container .glass {
+            background: rgba( 255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(18, 22, 87, 0.37);
+            backdrop-filter: blur( 4px);
+            -webkit-backdrop-filter: blur( 4px);
+            border-radius: 20px;
+            border: 2px solid rgba( 255, 255, 255, 0.18);
+            width: 500px;
+            height: 300px;
+        }
+        
+        .container .glass img {
+            width: 120px;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+        }
+        
+        .container .glass .h1 {
+            position: absolute;
+            bottom: 50px;
+            left: 30px;
+        }
+        
+        .container .glass h1 {
+            font-size: 25px;
+            font-weight: 300;
+            text-shadow: 0 0 5px rgba(13, 16, 59, 0.363);
+            margin-bottom: 10px;
+        }
+        
+        .container .glass .card {
+            width: 65px;
+            position: relative;
+            top: 100px;
+            left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass">
+            <img src="./visa-logo.png" alt="logo visa">
+            <img src="./chip-card-removebg-preview.png" alt="chip card" class="card">
+            <div class="h1">
+                <h1>1234 56789 6321 478</h1>
+                <span>DRAWNING A CREDCARD WITH HTML & CSS</span>
+            </div>
+        </div>
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
